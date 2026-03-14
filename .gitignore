@@ -1,0 +1,42 @@
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+
+# Logs
+*.log
+backend.log
+frontend.log
+server.log
+
+# Env files (never commit secrets)
+.env
+.env.*
+!.env.example
+!.env.cloud.example
+frontend/.env.development
+frontend/.env.frp
+!frontend/.env.example
+
+# Frontend artifacts
+frontend/node_modules/
+frontend/dist/
+
+# Python virtual envs
+.venv/
+venv/
+env/
+
+# Local containers cache
+podman-machine-default*
+
+# Local database backups
+backups/

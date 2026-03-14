@@ -1,0 +1,11 @@
+{
+  "mcp": {
+    "playwright": {
+      "type": "local",
+      "command": "npx",
+      "args": ["@executeautomation/playwright-mcp-server"],
+      "env": {},
+      "enabled": true
+    }
+  }
+}
